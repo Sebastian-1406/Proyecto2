@@ -309,6 +309,9 @@ body{
 .contenedor__estadistica-titulo{
 	width: 100%;
 }
+.section__redes:hover{
+	background: hsl(228, 20%, 44%);
+}
 
 @media screen and (min-width:500px){
 
@@ -339,10 +342,7 @@ body{
 		flex: 1;
 
 	}
-	.section__redes:hover{
-		background: hsl(228, 20%, 44%);
 
-	}
 	.contenedor__estadistica{
 		display: flex;
 		flex-direction: row;
